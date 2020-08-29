@@ -1,0 +1,44 @@
+.foreground-circle{fill:none;
+    stroke:#3498db}
+.foreground-circle-without-stroke-color{fill:none}
+.background-circle{fill:none;stroke:#ccc}
+.circle-text{font-family:Arial,sans-serif;
+    color:#aaa;font-size:20px}
+.circle-container{overflow:visible}
+.point-circle{fill:transparent}
+/*======================*/
+
+.containers {
+    display: block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+svg:not(:root) {
+    overflow: initial;
+}
+
+.circle-icon.fa {
+    font-size: .8rem;
+    fill: #3498DB;
+    transform: translate(0, 5%); /* change position of circle */
+}
+
+.circle-text {
+    font-size: 1.3rem;
+    color: #FFE600 !important;
+}
+
+.circle-info-text {
+    transform: translate(0, -6%); /* position text outside of circle */
+    font-size: .5rem;
+    color: #FFE600 !important;
+}
+
+#svg-circle2 {
+    transform: translate(16%, 15%);
+}
+
+.circle-container {
+    transform: translate(9%, 8%);
+}
+

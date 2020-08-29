@@ -1,0 +1,387 @@
+@media(max-width:1200px) {
+   #home {
+       height: 90vh;
+       background-position: center center
+   }
+   #home .home-info {
+       top: 55%
+   }
+   #home .display-1 {
+       font-size: 5.5rem
+   }
+}
+
+@media(max-width:1024px) {
+   #home {
+       height: 70vh;
+       background-position: center center
+   }
+   #home .display-1 {
+       font-size: 5rem
+   }
+   #about .bg-dark {
+       padding: 1.5rem;
+       width: 5rem;
+       height: 5rem
+   }
+   #services h2::after {
+       left: 41rem
+   }
+   #work h2::after {
+       left: 41rem
+   }
+}
+
+@media(max-width:768px) {
+   #home {
+       height: 60vh;
+       background-position: center center
+   }
+   #home .display-1 {
+       font-size: 3.5rem
+   }
+   #home .open-nav {
+       display: block
+   }
+   #services-bottom p {
+       color: rgba(255, 255, 255, .925);
+       width: 80%;
+       margin: auto
+   }
+   #services-bottom .lead {
+       margin-bottom: 5rem
+   }
+   #client .col-md-4 {
+       margin: 5rem 0
+   }
+   #services-bottom {
+       padding-bottom: 2rem
+   }
+   #counting-number .num1 {
+       font-size: 29px
+   }
+   #counting-number .num2 {
+       font-size: 29px
+   }
+   #counting-number .num3 {
+       font-size: 29px
+   }
+   #counting-number .num4 {
+       font-size: 29px
+   }
+   #portfolio #counting-number h4 {
+       font-size: 1.2rem;
+       color: #fbfbfbdb
+   }
+   #services h2::after {
+       left: 30rem
+   }
+   #work h2::after {
+       left: 30rem
+   }
+   #about h2::after {
+       left: 30rem
+   }
+   #about h3 {
+       font-size: 1.5rem
+   }
+   #team .col-md-3 {
+       padding: 0 .3rem
+   }
+   #team h3 {
+       font-size: 1.5rem
+   }
+   #skill .col-md-3 {
+       padding: 2rem
+   }
+   #client .py-5 {
+       padding: 5rem !important;
+       padding-bottom: 5rem;
+       padding-bottom: 0 !important
+   }
+   #clients-review .quote-phrase {
+       font-size: 16px
+   }
+   #clients-review #prev {
+       top: 0;
+       left: -20rem
+   }
+   #clients-review #next {
+       top: 0;
+       left: 25rem
+   }
+   section {
+       padding-bottom: 2rem
+   }
+}
+
+@media(max-width:576px) {
+   #home {
+       height: 70vh
+   }
+   #home .home-info .btn {
+       font-size: 1.6rem;
+       padding: 1rem 4rem
+   }
+   #work h2::after {
+       left: 20rem
+   }
+   #about .bg-dark {
+       padding: 2rem;
+       width: 7rem;
+       height: 7rem
+   }
+   #team .col-md-3 {
+       padding: 1rem
+   }
+   #client .py-5 {
+       padding: 5rem !important
+   }
+   
+   #client h2::after {
+      left: 20rem;
+   }
+   #contact .lead {
+       font-size: 1.6rem
+   }
+   .material-scrolltop {
+       bottom: 5px
+   }
+   #skill h3 {
+       font-size: 1.5rem
+   }
+}
+
+@media(max-width:480px) {
+   .navbar {
+      padding: .5rem 2rem;
+   }
+   #services .lead {
+       width: 60%;
+       margin: auto;
+       margin-bottom: 5rem
+   }
+   #services-bottom .lead {
+       width: 60%
+   }
+   #portfolio #counting-number .col-md-3 {
+       width: 50%;
+       padding: 1.5rem
+   }
+   #about .mt-sm-5 {
+       margin-top: 2rem
+   }
+   
+   #about h2::after {
+        left: 18rem;
+   }
+   #team .col-md-3 {
+       padding: 1rem 10rem
+   }
+   #skill .col-md-3 {
+       flex: 0 0 50%;
+       max-width: 50%
+   }
+   #client {
+       padding-bottom: 0
+   }
+   #client .col-md-4 {
+       margin: 3rem 0;
+       width: 50%
+   }
+   #clients-review {
+       padding-bottom: 5rem !important
+   }
+   #work h3 {
+       margin-top: 3rem
+   }
+   #work h2::after {
+      left: 18rem;
+   }
+   #contact .col-sm-4 {
+       max-width: 50%;
+       margin: auto;
+       padding: 2rem 0
+   }
+   #clients-review #buttons a {
+       font-size: 30px
+   }
+   #clients-review #prev {
+       top: 4rem;
+       left: -18rem
+   }
+   #clients-review #next {
+       top: 4rem;
+       left: 19rem
+   }
+   #clients-review #carousel {
+       width: 80%
+   }
+   #message-box input {
+       margin: 1.5rem 0
+   }
+}
+
+@media(max-width:420px) {
+   #services h2::after {
+       left: 14rem
+   }
+   #services-bottom .lead {
+       margin-bottom: 5rem
+   }
+   #portfolio #counting-number h4 {
+       font-size: 1.1rem
+   }
+   #about h4 {
+       font-weight: 600
+   }
+   .material-scrolltop {
+       bottom: 15px
+   }
+}
+
+@media(max-width:375px) {
+   #services h2 {
+       font-size: 2.5rem
+   }
+   #services h2::after {
+       left: 12rem
+   }
+   #about .bg-dark {
+       padding: 2rem;
+       width: 6rem;
+       height: 6rem
+   }
+   #team .col-md-3 {
+       padding: 1rem 6rem
+   }
+   #client h2{
+      font-size: 2.5rem;
+   }
+   #client h2::after {
+      left: 13rem;
+   }
+   #work h2::after {
+      left: 12rem;
+   }
+   #clients-review #carousel {
+       width: 95%
+   }
+   #clients-review #prev {
+       top: 5rem;
+       left: -15rem
+   }
+   #clients-review #next {
+       top: 5rem;
+       left: 15rem
+   }
+   #contact h2 {
+       font-size: 2rem
+   }
+   #contact .col-sm-4 {
+       max-width: 100%
+   }
+   #mesage-box h2 {
+       font-size: 2.5rem
+   }
+   #mesage-box p {
+       width: 80%;
+       margin: auto;
+       font-size: 1.5rem
+   }
+   #clients-review #next {
+       left: 13rem
+   }
+}
+
+@media(max-width:360px) {
+   #portfolio #counting-number h2 {
+       font-size: 2rem
+   }
+   #work h2 {
+       font-size: 2.5rem
+   }
+   #work h2::after {
+       left: 12rem
+   }
+   #about h2::after {
+       left: 12rem
+   }
+}
+
+@media(max-width:320px) {
+   #home .navbar-brand .img-fluid {
+       height: 3rem
+   }
+   #home .open-nav {
+       font-size: 20px
+   }
+   #services,
+   #work h2::after {
+       left: 9rem
+   }
+   #team .col-md-3 {
+       padding: 1rem 3rem
+   }
+   #services .lead {
+       width: 80%
+   }
+   #services-bottom .lead {
+       width: 74%
+   }
+   #work h2 {
+       font-size: 2rem
+   }
+   #clients-review #next {
+       left: 10rem
+   }
+   #clients-review #carousel {
+       width: 100%;
+       line-height: 1.8rem
+   }
+   #about .col-3 {
+       flex: 0 0 100%;
+       max-width: 100%;
+       margin: auto;
+       text-align: center
+   }
+   #about .col-9 {
+       flex: 0 0 100%;
+       max-width: 100%;
+       text-align: center
+   }
+   #about h4 {
+       font-weight: 600;
+       margin-top: 3rem
+   }
+   #message-box textarea {
+       margin-top: 2rem !important;
+       height: 11rem
+   }
+   #client h2 {
+      font-size: 2rem;
+   }
+   #client h2::after {
+      left: 10rem;
+   }
+   #about h2::after {
+      left: 10rem;
+      top: 12.5rem;
+   }
+   #portfolio #counting-number .num1, #portfolio #counting-number .num2, #portfolio #counting-number .num3, #portfolio #counting-number .num4 {
+      font-size: 22px;
+   }
+}
+
+@media(max-width:300px) {
+   #services h2::after {
+       left: 8rem
+   }
+   #services h2 {
+       font-size: 2rem
+   }
+   #message-box textarea {
+       margin-top: 2rem !important;
+       height: 11rem
+   }
+}

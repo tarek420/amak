@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SMAK</title>
+   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="src/css/font-awesome.min.css">
+   <link rel="stylesheet" href="src/css/uikit.min.css">
+   <link rel="stylesheet" href="src/css/bootstrap.css">
+   <link rel="stylesheet" href="src/css/custom.css">
+   <link rel="stylesheet" href="src/css/style.css">
+   <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+   <header id="home">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light" uk-sticky="top: 650; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+               <img src="src/img/logo.png" class="img-fluid" alt="">
+            </a>
+
+            <span class="open-nav" onclick="openNav()">&#9776;</span>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home" uk-scroll>HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" uk-scroll id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SERVICES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#services">web design</a>
+                    <a class="dropdown-item" href="#services">Graphic Disign</a>
+                    <a class="dropdown-item" href="#services">Photography</a>
+                    <a class="dropdown-item" href="#services">web Development</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work" uk-scroll>WORK</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about" uk-scroll>ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#client" uk-scroll>CLIENTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact" uk-scroll>CONTACT</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="custom-btn btn-7"><span>Read More</span></button>
+              </form>
+            </div>
+             </div>
+      <!-------------------------->
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#home">HOME <span class="sr-only">(current)</span></a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SERVICES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#services" uk-scroll>web design</a>
+                    <a class="dropdown-item" href="#services" uk-scroll>Graphic Disign</a>
+                    <a class="dropdown-item" href="#services" uk-scroll>Photography</a>
+                    <a class="dropdown-item" href="#services" uk-scroll>web Development</a>
+                  </div>
+                </li>
+                <a href="#about" uk-scroll>WORK</a>
+                <a href="#work" uk-scroll>ABOUT</a>
+                <a href="#client" uk-scroll>Clients</a>
+                <a href="#contact" uk-scroll>Contact</a>
+              </div>
+    <!------------------------>
+          </nav>
+          <div class="home-info">
+            <h1 class="display-1">BRANDING HAVE ANOTHER DEFINITION</h1>
+            <a href="#" class="btn btn-warning">BUY THIS THEME</a>
+          </div>
+   </header>
+   <!--============SERVICES SECTION============-->
+   <section id="services" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h4>SERVICES</h4>
+           <h2>WHAT WE LOVE TO DO</h2>
+           <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus  Praesent sapien massa, convallis a pellen tesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+         </div>
+       </div>
+       <div class="row mt-5 pt-5">
+         <div class="col-md-3 col-sm-6">
+           <div class="icon">
+            <i class="fa fa-html5"></i>
+           </div>
+           <h3>WEB DESIGN</h3>
+           <p class="lead">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+         </div>
+         <div class="col-md-3 col-sm-6">
+          <div class="icon">
+            <i class="fa fa-apple"></i>
+          </div>
+          <h3>GRAPHIC DESIGN</h3>
+          <p class="lead">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mt-sm-5 mt-md-0">
+          <div class="icon">
+           <i class="fa fa-camera"></i>
+          </div>
+          <h3>PHOTOGRAPHY</h3>
+          <p class="lead">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mt-sm-5 mt-md-0">
+          <div class="icon">
+           <i class="fa fa-gear"></i>
+          </div>
+          <h3>DEVELOPING</h3>
+          <p class="lead">Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit.</p>
+        </div>
+       </div>
+     </div>
+   </section>
+   <section id="services-bottom" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h2>HOW WE DO IT</h2>
+           <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. </p>
+         </div>
+       </div>
+       <div class="row mt-5 pt-5">
+         <div class="col-lg-2 col-md-4 col-sm-6">
+           <img src="src/img/services-b-1.png" class="img-fluid" alt="">
+           <h4>ANALYSE</h4>
+           <p class="lead">Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam.</p>
+         </div>
+         <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="src/img/services-b-2.png" class="img-fluid" alt="">
+          <h4>PREPARING</h4>
+          <p class="lead">Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="src/img/services-b-3.png" class="img-fluid" alt="">
+          <h4>WORKING</h4>
+          <p class="lead">Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit </p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="src/img/services-b-4.png" class="img-fluid" alt="">
+          <h4>FINALYSE</h4>
+          <p class="lead">Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="src/img/services-b-5.png" class="img-fluid" alt="">
+          <h4>TESTING</h4>
+          <p class="lead">Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="src/img/services-b-6.png" class="img-fluid" alt="">
+          <h4>DELIVER</h4>
+          <p class="lead">Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit</p>
+        </div>
+       </div>
+     </div>
+   </section>
+   <!--=========WORK SECTION============-->
+   <section id="work" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h4>OUR WORKS</h4>
+           <h2>WHAT WE DONE SO FAR</h2>
+           <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+         </div>
+       </div>
+       <div class="row mt-5 pt-5">
+         <div class="col-md-6">
+           <img src="src/img/work.jpeg" class="img-fluid" alt="">
+         </div>
+         <div class="col-md-6 text-left mt-sm-5 mt-md-0">
+           <h3>Our Awesome Image</h3>
+           <p class="lead">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+           <button class="custom-btn btn-7"><span>Read More</span></button>
+         </div>
+       </div>
+     </div>
+     <div id="gallery">
+      <div class="container-fluid">
+        <div class="row mt-5 pt-5">
+          <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom; target: .uk-card; delay: 300; repeat: true">
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work.jpeg" style="width: 100%;" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work-5.jpg" class="img-fluid" style="width: 100%;" alt="">
+            </div>
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work-3.jpg"style="width: 100%;" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work-12.jpg"style="width: 100%;" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work-10.jpg"style="width: 100%;" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work-6.jpg"style="width: 100%;" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work-7.jpg"style="width: 100%;" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-3 col-sm-6 uk-card">
+              <img src="src/img/work-8.jpg"style="width: 100%;" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+    </div>
+     </div>
+   </section>
+   <!--============PORTFOLIO SECTION=============-->
+   <section id="portfolio" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h2>DO YOU LIKE OUR PORTFOLIO?</h2>
+           <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+           <button class="custom-btn btn-7"><span>Read More</span></button>
+         </div>
+       </div>
+     </div>
+     <div id="counting-number" class="mt-5 pt-5">
+       <div class="container">
+         <div class="row">
+           <div class="col-12">
+             <h2>WE ARE PROUD OF THESE NUMBERS</h2>
+             <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+           </div>
+         </div>
+         <div class="row mt-5 pt-5">
+           <div class="col-md-3 col-sm-6">
+              <div class="card">
+                <span class="num1 alert alert-danger">0</span>
+                <h4>HAPPY CLIENTS</h4>
+              </div>
+           </div>
+           <div class="col-md-3 col-sm-6">
+             <div class="card">
+              <span class="num2 alert alert-danger">0</span>
+              <h4>COMPLETED PROJECTS</h4>
+             </div>
+           </div>
+           <div class="col-md-3 col-sm-6 mt-sm-5 mt-md-0">
+             <div class="card">
+              <span class="num3 alert alert-danger">0</span>
+              <h4>AWARDS</h4>
+             </div>
+           </div>
+           <div class="col-md-3 col-sm-6 mt-sm-5 mt-md-0">
+             <div class="card">
+              <span class="num4 alert alert-danger">0</span>
+              <h4>COFFEE DRINKS</h4>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   <!--==========ABOUT SECTION============-->
+   <section id="about" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h4>ABOUT US</h4>
+           <h2>WHO WE ARE</h2>
+           <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+         </div>
+       </div>
+       <div class="row mt-5 pt-5 text-left">
+         <div class="col-md-6">
+           <div class="row">
+             <div class="col-3">
+              <img src="src/img/about-1.png" class="img-fluid bg-dark" alt="">
+             </div>
+             <div class="col-9">
+              <h4>ON TIME PROJECTS</h4>
+              <p class="lead">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.Cras ultricies ligula sed magna dictum est ontar des lorem ipsum.</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-6 mt-sm-5 mt-md-0">
+          <div class="row">
+            <div class="col-3">
+             <img src="src/img/about-2.png" class="img-fluid bg-dark" alt="">
+            </div>
+            <div class="col-9">
+             <h4>FULLY SUPPORT</h4>
+             <p class="lead">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.Cras ultricies ligula sed magna dictum est ontar des lorem ipsum.</p>
+            </div>
+          </div>
+        </div>
+       </div>
+       <div class="row mt-md-5 mt-sm-0 pt-5 text-left">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-3">
+             <img src="src/img/about-3.png" class="img-fluid bg-dark" alt="">
+            </div>
+            <div class="col-9">
+             <h4>PROFESSIONAL EXPERIENCE</h4>
+             <p class="lead">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.Cras ultricies ligula sed magna dictum est ontar des lorem ipsum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-sm-5 mt-md-0">
+         <div class="row">
+           <div class="col-3">
+            <img src="src/img/about-4.png" class="img-fluid bg-dark" alt="">
+           </div>
+           <div class="col-9">
+            <h4>COMMUNICATIVE TEAM</h4>
+            <p class="lead">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.Cras ultricies ligula sed magna dictum est ontar des lorem ipsum.</p>
+           </div>
+         </div>
+       </div>
+      </div>
+     </div>
+   </section>
+   <!--============TEAM SECTION============-->
+   <section id="team" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+          <h2>THE TEAM</h2>
+          <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+         </div>
+       </div>
+       <div class="row text-center mt-5 pt-5">
+         <div class="col-md-3 col-sm-6">
+           <div class="card">
+             <img src="src/img/team-1.jpg" class="img-fluid" alt="">
+             <div class="card-footer">
+               <h3 class="display-5">BILL GATES</h3>
+               <h3>CREATIVE DIRECTOR</h3>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="src/img/team-2.jpg" class="img-fluid" alt="">
+            <div class="card-footer">
+              <h3 class="display-5">JOHN DOE</h3>
+              <h3>ART DIRECTOR</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="src/img/team-3.jpg" class="img-fluid" alt="">
+            <div class="card-footer">
+              <h3 class="display-5">JOHN DOE</h3>
+              <h3>WEB DEVELOPER</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="src/img/team-4.jpg" class="img-fluid" alt="">
+            <div class="card-footer">
+              <h3 class="display-5">JOHN DOE</h3>
+              <h3>PHOTOGRAPHER</h3>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+   </section>
+   <!--============SKILL SECTION============-->
+   <section id="skill" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h2>SKILLS</h2>
+           <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+         </div>
+       </div>
+       <div class="row text-center">
+         <div class="col-md-3">
+            <div class="containers">
+              <div id="circle6" class="circle-stat-custom circle-default-style"></div>
+            </div>
+            <h3>HTML&CSS</h3>
+         </div>
+         <div class="col-md-3">
+          <div class="containers">
+            <div id="circle1" class="circle-stat-custom circle-default-style"></div>
+          </div>
+          <h3>AI & PS</h3>
+        </div>
+        <div class="col-md-3">
+          <div class="containers">
+            <div id="circle4" class="circle-stat-custom circle-default-style"></div>
+          </div>
+          <h3>JS & PHP</h3>
+       </div>
+        <div class="col-md-3">
+          <div class="containers">
+            <div id="circle3" class="circle-stat-custom circle-default-style"></div>
+          </div>
+          <h3>PHOTOGRAPHY</h3>
+        </div>
+       </div>
+     </div>
+   </section>
+   <!--================CLIENTS SECTION===================-->
+    <section id="client" class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3>OUR CLIENTS</h3>
+              <h2>WHO LOVE TO WORK WITH US</h2>
+              <p class="lead"> Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.</p>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col-md-4 col-lg-2 col-sm-4">
+              <img style="margin-top: -1rem;" src="src/img/client-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 col-lg-2 col-sm-4">
+              <img src="src/img/client-2.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 col-lg-2 col-sm-4">
+              <img style="margin-top: -1rem;" src="src/img/client-3.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 col-lg-2 col-sm-4">
+              <img src="src/img/client-4.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 col-lg-2 col-sm-4">
+              <img src="src/img/client-5.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 col-lg-2 col-sm-4">
+              <img style="margin-top: -1rem;" src="src/img/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+        <!--===============TEXT SLIDER====================-->
+        <div id="clients-review" class="my-5 py-5">
+          <div class="container">
+            <div id="carousel">
+              <div class="btn-bar">
+                <div id="buttons"><a id="prev" href="#"><</a><a id="next" href="#">></a> </div>
+              </div>
+              <div id="slides">
+                <ul>
+                  <li class="slide">
+                    <div class="quoteContainer">
+                      <p class="quote-phrase"><span class="quote-marks">"</span>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.Cras ultricies ligula sed magna dictum est ontar des lorem ipsum.<span class="quote-marks">"</span> </p>
+                    </div>
+                    <div class="authorContainer">
+                      <p class="quote-author">Daniel J. Boorstin</p>
+                    </div>
+                  </li>
+                  <li class="slide">
+                    <div class="quoteContainer">
+                      <p class="quote-phrase"><span class="quote-marks">"</span>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.Cras ultricies ligula sed magna dictum est ontar des lorem ipsum.<span class="quote-marks">"</span> </p>
+                    </div>
+                    <div class="authorContainer">
+                      <p class="quote-author">Daniel J. Boorstin</p>
+                    </div>
+                  </li>
+                  <li class="slide">
+                    <div class="quoteContainer">
+                      <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span> </p>
+                    </div>
+                    <div class="authorContainer">
+                      <p class="quote-author">Janice Falsename</p>
+                    </div>
+                  </li>
+                  <li class="slide">
+                    <div class="quoteContainer">
+                      <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span> </p>
+                    </div>
+                    <div class="authorContainer">
+                      <p class="quote-author">Janice Falsename</p>
+                    </div>
+                  </li>
+                  <li class="slide">
+                    <div class="quoteContainer">
+                      <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful designer I've ever hired. He listened to my ideas and advised against things that could negatively affect my CEO. Company A is by far the most generous and helpful company, 5/5!<span class="quote-marks">"</span> </p>
+                    </div>
+                    <div class="authorContainer">
+                      <p class="quote-author">Janice Falsename</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+   <!--==============CONTACT SECTION===============-->
+   <section id="contact" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h4>CONTACT US</h4>
+           <h2>WHERE YOU CAN FIND US</h2>
+           <p class="lead">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor 
+            accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pelle
+            ntesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt ni dictum porta.
+            </p>
+         </div>
+       </div>
+       <div class="row mt-5 pt-3">
+         <div class="col-sm-4">
+           <div class="icon">
+            <i class="fa fa-home"></i>
+           </div>
+           <h3>OUR ADDRESS</h3>
+           <h3 class="lead">214 Awesome Street,NY</h3>
+         </div>
+         <div class="col-sm-4">
+          <div class="icon">
+           <i class="fa fa-comment"></i>
+          </div>
+          <h3>OUR MAIL</h3>
+          <h3 class="lead">awesomemail@ourmail.com</h3>
+        </div>
+        <div class="col-sm-4">
+          <div class="icon">
+           <i class="fa fa-phone"></i>
+          </div>
+          <h3>OUR PHONE</h3>
+          <h3 class="lead">(0) 123-456-789-00</h3>
+        </div>
+       </div>
+     </div>
+   </section>
+   <!--==============MESSAGE BOX===============-->
+   <section id="message-box" class="text-center">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h2>SEND US A MESSAGE</h2>
+           <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur aliquet quam id dui posuere.</p>
+         </div>
+       </div>
+       <div class="row" class="mt-5 pt-5">
+         <div class="col-sm-4">
+           <input placeholder="Your Name" type="text" class="form-control form-control-lg">
+         </div>
+         <div class="col-sm-4">
+          <input placeholder="Your Email" type="email" class="form-control">
+        </div>
+        <div class="col-sm-4">
+          <input placeholder="Subject" type="text" class="form-control">
+        </div>
+        <div class="col-sm-12">
+          <textarea placeholder="Enter Message Here" class="form-control mt-5 pt-5" cols="30" rows="10"></textarea>
+        </div>
+       </div>
+       <button class="custom-btn btn-7"><span>SEND MESSAGE</span></button>
+     </div>
+   </section>
+<!--==========FOOTER SECTION============-->
+   <footer class="text-center text-light">
+     <div class="container">
+       <div class="row">
+         <div class="col-12">
+           <h4>© Copyright 2013 Smak. All Rights Reserved.</h4>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col">
+           <i class="fa fa-facebook"></i>
+           <i class="fa fa-dribbble"></i>
+           <i class="fa fa-twitter"></i>
+           <i class="fa fa-google-plus"></i>
+         </div>
+       </div>
+     </div>
+   </footer>
+
+
+       <!-- Material button -->
+       <button class="material-scrolltop" type="button"></button>
+       <!-- Material button -->
+
+
+
+   <!--=========JS SCRIPT LINK========-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="src/js/uikit.min.js"></script>
+   <script src="src/js/jquery.numscroll.js"></script>
+   <script src="src/js/popper.min.js"></script>
+   <script src="src/js/circliful.js"></script>
+   <script src="src/js/material-scrolltop.js"></script>
+   <script src="src/js/main.js"></script>
+
+
+</body>
+</html>
